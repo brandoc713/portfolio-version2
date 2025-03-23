@@ -19,7 +19,7 @@ export const projects = [
 
 export const TimeLineData = [
   { year: 2003, text: 'Born in Chicago, IL', },
-  { year: 2021, text: 'Graduateed from Vernon Hills High School. \nEnrolled at Vassar College, NY studying Computer Science.', },
+  { year: 2021, text: 'Graduateed from Vernon Hills High School. Enrolled at Vassar College, NY studying Computer Science.', },
   { year: 2023, text: 'Enrolled at Dartmouth College, NH to pursue an Electrical Engineering Degree.', },
   { year: 2025, text: 'Graduate from Vassar College.', },
   { year: 2026, text: 'Graduate from Dartmouth College.', },
