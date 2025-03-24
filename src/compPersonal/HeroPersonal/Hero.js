@@ -1,11 +1,9 @@
 import React from 'react';
 import Image from 'next/image'
 //Styled Components wanted to use across the entire website & files
-import { Section, SectionText, SectionTitle, SectionDivider } from '../../styles/GlobalComponents'; 
+import { Section, SectionTitle, SectionDivider } from '../../styles/GlobalComponents'; 
 // import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection, CenterSection, Box, Img, RightSection, JobPositionContainer, JobContent, JobTitle, JobDescription, CompanyTitle, Dates, LogoContainer} from './HeroStyles';
-
-import myImage from '/public/images/GenericPFP2024.jpeg';
+import { LeftSection, CenterSection, JobPositionContainer, JobContent, JobTitle, JobDescription, CompanyTitle, Dates, LogoContainer} from './HeroStyles';
 
 import { useRouter } from 'next/router'; // Import the useRouter hook
 
@@ -124,7 +122,26 @@ const Hero = () => {
             />
           </LogoContainer>
         </JobPositionContainer>
-        
+        <br />
+        <br />
+        <br />
+        {/* PDF showcase */}
+        <SectionTitle>
+          Resume
+        </SectionTitle>
+        <SectionDivider />
+        <div style={{ width: '100%', height: '800px' }}>
+          <iframe 
+            src="/images/resume25.pdf" 
+            width="100%" 
+            height="100%"
+            style={{ border: 'none' }}
+            title="Resume"
+          >
+            This browser does not support PDFs. Please download the PDF to view it: 
+            <a href="/images/resume25.pdf">Download PDF</a>
+          </iframe>
+        </div>
       </LeftSection>
     </Section>
   );

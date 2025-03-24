@@ -35,39 +35,6 @@ export const CenterSection = styled.div`
   }
 `;
 
-export const Box = styled.div`
-  width: ${(props) => props.width || '100%'}; // Customizable width
-  height: ${(props) => props.height || 'auto'}; // Customizable height
-  padding: ${(props) => props.padding || '0'}; // Customizable padding
-  background-image: url(${(props) => props.bgImage}); // Background image
-  background-size: cover; // Ensure the image covers the box
-  background-position: center; // Center the image
-  border-radius: ${(props) => props.borderRadius || '0'}; // Rounded corners
-`;
-
-export const Img = styled.img`
-  width:100%;
-  height:100%;
-  object-fit: cover;
-  overflow: hidden;
-`
-export const RightSection = styled.div`
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end; // Align content to the right
-
-  @media ${(props) => props.theme.breakpoints.sm} {
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  @media ${(props) => props.theme.breakpoints.md} {
-    width: 100%;
-    margin: 0 auto;
-  }
-`;
-
 // Job Position Container
 export const JobPositionContainer = styled.div`
   border-radius: 10px;
