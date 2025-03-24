@@ -15,7 +15,7 @@ const Hero = () => {
       <LeftSection>
         <SectionTitle main center>
           Hello, <br/>
-          my name is Brandon Carido I&apos;m an undergraduate student studying Computer Science and Electrical Engineering.
+          my name is Brandon Carido. I&apos;m an undergraduate student studying Computer Science and Electrical Engineering.
         </SectionTitle>
         <SectionText>
           I am pursuing the five year Dual-Degree Engineering Program at Vassar College and Dartmouth College. I am passionate about technology, and I am always looking to learn new things.
