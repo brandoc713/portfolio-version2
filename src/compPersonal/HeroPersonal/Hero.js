@@ -3,7 +3,7 @@ import Image from 'next/image'
 //Styled Components wanted to use across the entire website & files
 import { Section, SectionText, SectionTitle, SectionDivider } from '../../styles/GlobalComponents'; 
 // import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection, CenterSection, Box, Img, RightSection, JobPositionContainer, JobTitle, JobDescription, CompanyTitle, Dates } from './HeroStyles';
+import { LeftSection, CenterSection, Box, Img, RightSection, JobPositionContainer, JobContent, JobTitle, JobDescription, CompanyTitle, Dates, LogoContainer} from './HeroStyles';
 
 import myImage from '/public/images/GenericPFP2024.jpeg';
 
@@ -51,26 +51,78 @@ const Hero = () => {
         <SectionTitle>
           Work Experience
         </SectionTitle>
+        <SectionDivider />
+        <br />
         <JobPositionContainer>
-          <JobTitle>People Analytics Intern — Genesys Cloud Services</JobTitle>
-          <JobDescription>As a People Analytics Intern, I leveraged SQL to run complex queries, creating a centralized viewpoint 
-            for Workforce Analytics. I collaborated closely with the People Analytics team to problem-solve and develop innovative 
-            solutions for internal challenges. By analyzing data, I identified quantifiable trends that provided actionable HR insights, 
-            enabling evidence-based decision-making across the organization.</JobDescription>
+          <JobContent>
+            <CompanyTitle>Genesys Cloud Services</CompanyTitle>
+            <Dates>May 2023 - August 2023</Dates>
+            <JobTitle>People Analytics Intern</JobTitle>
+            <JobDescription>
+              As a People Analytics Intern, I leveraged SQL to run complex queries, creating a centralized viewpoint for Workforce Analytics. I collaborated closely with the People Analytics team to problem-solve and develop innovative solutions for internal challenges. By analyzing data, I identified quantifiable trends that provided actionable HR insights, enabling evidence-based decision-making across the organization.
+            </JobDescription>
+          </JobContent>
+          <LogoContainer>
+            <Image
+              src="/images/genesys.jpg" // Replace with your logo path
+              alt="Genesys Logo"
+              width={100}
+              height={100}
+              style={{
+                objectFit: 'cover', // Ensure the logo covers the circle
+                width: '100%',
+                height: '100%',
+              }}
+            />
+          </LogoContainer>
         </JobPositionContainer>
 
         <JobPositionContainer>
-          <JobTitle>Mentor — Curious Cardinals</JobTitle>
-          <JobDescription>As a Mentor, I fostered a spirit of inquiry and exploration in aspiring individuals aged 11-17 through a tailored matching process. I designed and delivered personalized lessons via Zoom, focusing on the unique interests and fields of each mentee. 
-            By creating individualized learning plans and managing a full schedule of mentees, I ensured seamless teaching and meaningful 
-            growth for every participant.</JobDescription>
+          <JobContent>
+            <CompanyTitle>Curious Cardinals</CompanyTitle>
+            <Dates>January 2023 - Present</Dates>
+            <JobTitle>Mentor</JobTitle>
+            <JobDescription>
+              As a Mentor, I fostered a spirit of inquiry and exploration in aspiring individuals aged 11-17 through a tailored matching process. I designed and delivered personalized lessons via Zoom, focusing on the unique interests and fields of each mentee. By creating individualized learning plans and managing a full schedule of mentees, I ensured seamless teaching and meaningful growth for every participant.
+            </JobDescription>
+          </JobContent>
+          <LogoContainer>
+            <Image
+              src="/images/cc.jpeg" // Replace with your logo path
+              alt="Curious Cardinals Logo"
+              width={100}
+              height={100}
+              style={{
+                objectFit: 'cover', // Ensure the logo covers the circle
+                width: '100%',
+                height: '100%',
+              }}
+            />
+          </LogoContainer>
         </JobPositionContainer>
 
         <JobPositionContainer>
-          <JobTitle>Q-Tutor — Quantitative Reasoning Center, Vassar College</JobTitle>
-          <JobDescription>As a Q-Tutor, I instructed and encouraged peers in Mathematics, Physics, and Economics, 
-            providing support with assignments and coursework. I dedicated 8 hours weekly to working with an average of 12 students
-            , offering guidance and fostering their academic success. My role involved not only teaching but also motivating students to overcome challenges and achieve their goals.</JobDescription>
+          <JobContent>
+            <CompanyTitle>Quantitative Reasoning Center</CompanyTitle>
+            <Dates>September 2022 - Present</Dates>
+            <JobTitle>Q-Tutor</JobTitle>
+            <JobDescription>
+              As a Q-Tutor at Vassar College, I instructed and encouraged peers in Mathematics, Physics, and Economics, providing support with assignments and coursework. I dedicated 8 hours weekly to working with an average of 12 students, offering guidance and fostering their academic success. My role involved not only teaching but also motivating students to overcome challenges and achieve their goals.
+            </JobDescription>
+          </JobContent>
+          <LogoContainer>
+            <Image
+              src="/images/qcenter.png" // Replace with your logo path
+              alt="Q-Center Logo"
+              width={100}
+              height={100}
+              style={{
+                objectFit: 'cover', // Ensure the logo covers the circle
+                width: '100%',
+                height: '100%',
+              }}
+            />
+          </LogoContainer>
         </JobPositionContainer>
         
       </LeftSection>
