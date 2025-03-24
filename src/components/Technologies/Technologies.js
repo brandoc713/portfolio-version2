@@ -9,7 +9,7 @@ const Technologies = () =>  (
     <br />
     <SectionTitle>Technical Skills and Experience</SectionTitle>
     <SectionText>
-      During my academic and professional career I've worked on a wide range of projects to hone my skills pertaining to both Computer Science and Electrical Engineering.
+      During my academic and professional career, I've worked on a wide range of projects to hone my skills pertaining to both Computer Science and Electrical Engineering.
     </SectionText>
     <List>
       <ListItem>
