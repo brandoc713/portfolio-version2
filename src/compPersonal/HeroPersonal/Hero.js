@@ -78,7 +78,7 @@ const Hero = () => {
         <JobPositionContainer>
           <JobContent>
             <CompanyTitle>Curious Cardinals</CompanyTitle>
-            <Dates>January 2023 - Present</Dates>
+            <Dates>January 2024 - Present</Dates>
             <JobTitle>Mentor</JobTitle>
             <JobDescription>
               As a Mentor, I fostered a spirit of inquiry and exploration in aspiring individuals aged 11-17 through a tailored matching process. I designed and delivered personalized lessons via Zoom, focusing on the unique interests and fields of each mentee. By creating individualized learning plans and managing a full schedule of mentees, I ensured seamless teaching and meaningful growth for every participant.
