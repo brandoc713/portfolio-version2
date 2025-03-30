@@ -129,8 +129,8 @@ const Hero = () => {
         <SectionTitle>
           Resume
         </SectionTitle>
-        <br />
         <SectionDivider />
+        <br />
         <div style={{ width: '100%', height: '800px' }}>
           <iframe 
             src="/images/resume25.pdf" 
