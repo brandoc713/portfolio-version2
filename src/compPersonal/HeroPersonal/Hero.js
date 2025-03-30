@@ -54,7 +54,7 @@ const Hero = () => {
         <JobPositionContainer>
           <JobContent>
             <CompanyTitle>Genesys Cloud Services</CompanyTitle>
-            <Dates>May 2023 - August 2023</Dates>
+            <Dates>May 2024 - August 2024</Dates>
             <JobTitle>People Analytics Intern</JobTitle>
             <JobDescription>
               As a People Analytics Intern, I leveraged SQL to run complex queries, creating a centralized viewpoint for Workforce Analytics. I collaborated closely with the People Analytics team to problem-solve and develop innovative solutions for internal challenges. By analyzing data, I identified quantifiable trends that provided actionable HR insights, enabling evidence-based decision-making across the organization.
@@ -129,6 +129,7 @@ const Hero = () => {
         <SectionTitle>
           Resume
         </SectionTitle>
+        <br />
         <SectionDivider />
         <div style={{ width: '100%', height: '800px' }}>
           <iframe 
